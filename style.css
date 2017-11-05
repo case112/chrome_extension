@@ -44,7 +44,11 @@ body {
 }
 
 #quote {
-  display: block;
+  display: table;
+  margin: 0px auto 0px auto; 
+  padding:5px;
+  background-color:rgba(0, 0, 0, 0.4);
+
   letter-spacing: 1px;
   line-height: 1.4em;
   font-weight: 300;
@@ -55,13 +59,18 @@ body {
 }
 
 #author {
-  display: block;
+  display: table;
+  margin: 0px auto 0px auto; 
+  padding:5px;
+  background-color:black;
+  background-color:rgba(0, 0, 0, 0.4);
+
   font-size: 2em;
   font-style: italic;
   color: rgba(255, 255, 255, 0);
   margin-top: 0.5em;
   -webkit-transition: all 1.8s ease-out 1s;
-  transition: all 1.8s ease-out 1s;
+  transition: all 1.8s ease-out 1s; 
 }
 
 #quote.move {

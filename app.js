@@ -45,7 +45,7 @@
 
     document.getElementById('background-image').style.backgroundImage = 'url("img/'+ randomImage +'")';
     document.getElementById('quote').innerHTML = randomQuote;
-    document.getElementById('author').innerHTML = "&mdash; " +  'Have an awesome day!' + " &mdash;";
+    document.getElementById('author').innerHTML = "&mdash; " +  ' Have an awesome day! ' + " &mdash;";
 
     document.getElementById('quote').className = 'move';
     document.getElementById('author').className = 'move';
